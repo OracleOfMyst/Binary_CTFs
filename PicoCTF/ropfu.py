@@ -1,4 +1,3 @@
-from struct import pack
 from pwn import *
 
 buf = b'A' * 28 # Control the buffer
